@@ -1,0 +1,495 @@
+body{
+		margin:0;
+
+	}
+
+	/*ul  {
+  		list-style-type: none;
+  		margin: 0;
+  		padding: 6.5px;
+  		overflow: hidden;
+  		background-color: #333;
+  		position: -webkit-sticky; 
+  		position: sticky;
+  		top: 0;
+
+		}
+
+*/
+	.content{
+		margin-top: 25px; 
+		margin-bottom: 25px;
+		
+	}
+
+
+	/*li {
+ 	 float: left;
+
+	}*/
+
+	.page-footer{
+		background-color: black;
+	}
+
+	li a {
+  	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 17px 20px;
+  	text-decoration: none;
+
+	}
+
+	/*li a:hover {
+  	background-color: white;
+  	color: black;
+	}*/
+	.header{
+		min-height: 4.1rem;
+		font-size: 12px;
+		background-color:#333;
+		color: white;
+		padding-left:30px;
+		margin: 0;
+		display: block;
+		text-align: left;
+		letter-spacing: 1.5px;
+		 font-family: cursive;
+		
+	}
+
+	.sub_heading{
+		font-size: 45px;
+	    padding-top: 8rem;
+	    font-family: sans-serif;
+	    text-shadow: 2px 2px grey;
+	}
+	h3{
+		text-align: center;
+		font-weight:lighter;
+		font-size: 30px;
+		font-style: italic;
+	}
+	
+
+	}
+	/*.btn-primary{
+		color: #333;
+    	background-color: #fff;
+    	border-color: #ccc;
+	}
+	.button{
+		display: inline-block;
+	    margin-bottom: 0;
+	    font-weight: 400;
+	    text-align: center;
+	    white-space: nowrap;
+	    vertical-align: middle;
+	    -ms-touch-action: manipulation;
+	    touch-action: manipulation;
+	    cursor: pointer;
+	    background-image: none;
+	    border: 1px solid transparent;
+	    padding: 6px 12px;
+	    font-size: 14px;
+	    line-height: 1.42857143;
+	    border-radius: 4px;
+	    -webkit-user-select: none;
+	    -moz-user-select: none;
+	    -ms-user-select: none;
+	    user-select: none;
+	}
+/*
+	.button{
+		display: inline-block;
+		border-radius: 7px;
+		border-color: white;
+		text-align: center;
+		padding: 7px;
+		height: 60px;
+		width: 165px;
+		font-size: 21px;
+		margin-top:20px;  
+		transition: all 0.5s;
+  		cursor: pointer;
+  		background-color:#333;
+  		color: white;
+
+	}
+	.button span {
+  	cursor: pointer;
+  	display: inline-block;
+  	position: relative;
+  	transition: 0.5s;
+  	}
+
+  	.button span:after {
+  	content: '\00bb';
+  	position: absolute;
+  	opacity: 0;
+  	top: 0;
+  	right: -20px;
+  	transition: 0.5s;
+	}
+
+	.button:hover span {
+  	padding-right: 25px;
+	}
+
+	.button:hover span:after {
+  	opacity: 1;
+  	right: 0;
+  	}*/
+	
+	
+input[type=text]{
+		width: 100%;
+		padding: 12px 20px;
+		margin: 10px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box; 
+
+	}
+
+	input[type=email]{
+		width: 100%;
+		padding: 12px 20px;
+		margin: 10px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+
+	}
+
+	input[type=password]{
+		width: 100%;
+		padding: 12px 20px;
+		margin: 10px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+
+	}
+
+	input[type=submit]{
+		width: 100%;
+		background-color: #333;
+		color: white;
+		padding: 14px 20px;
+		margin: 10px 0;
+		border:none;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+
+	input[type=submit]:hover{
+		background-color: gray;
+
+	}
+
+	input[type=radio]{
+		margin: 10px 10px;
+		display: inline-block;
+		
+	}
+
+	.sign{
+
+		margin: 0px auto;
+		width: 35%;
+		border-radius: 5px;
+		background-color: #f2f2f2;
+		padding: 40px;
+
+	}
+
+	.S{
+		padding-top: 90px;
+	}
+	
+
+	/*.footer{
+		margin-left: 0;
+	    display: block;
+	    color: white;
+	    text-align: center;
+	    padding: 0;
+	} 
+
+	.login{
+		margin: 0 auto;
+		width: 35%;
+		border-radius: 10px;
+		background-color: #f2f2f2;
+		padding: 30px;
+	
+	}
+
+	.login_contianer{
+		width: 100%;
+    	float: left;
+
+
+	}
+	
+
+	.login_text{
+		padding:0px;
+		text-decoration:none;
+		text-align: left;
+		font-family: fantasy;
+	}
+
+	.login_text p{
+		text-align: right;
+	}
+
+
+	.login h3{
+		text-align: left;
+		font-family: fantasy;	
+	}
+
+	.f1 ul{
+		
+  		list-style-type: none;
+  		margin: 0;
+  		padding: 0px;
+  		overflow: hidden;
+  		background-color: #333;
+  		position: bottom;
+  		top: 0;	
+	}
+
+	.f1 li {
+ 	 float: left;
+	}
+
+	.f1 li a {
+  		display: block;
+  		color: white;
+  		text-align: center;
+  		padding: 6px 30px;
+  		text-decoration: none;
+  		font-size: 13px;
+
+	}
+
+	.f1 li a:hover {
+  		background-color: #333;
+  		color: tomato;
+		}
+.main_content{
+	padding: 50px 0 116px;
+	background:url("../images/web.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+}	
+.main_content,.footer{
+	width:100%;
+	float:left;
+}
+.signup_content{
+	text-align: center;
+}*/
+
+.row{
+	    margin-right: 0px;
+
+}
+
+hr {
+	margin-top: 5px;
+}
+
+.page_footer{
+	padding: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+
+}
+	
+	.carousel-inner img {
+    width: 100%;
+   
+  }
+
+  .carousel-inner>.item>img{
+  	height: 650px;
+  }
+  
+
+
+	.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 71px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 200%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #fb3958;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: #25d366;
+  color: white;
+}
+
+
+
+.slide_caption{
+	font-weight: bold;
+	font-size: 5em;
+	
+	text-shadow: 3px 2px 5px black;
+}
+
+
+
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 17px 0 -24px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 20%;
+
+}
+
+
+
+
+
+.container {
+  padding: 16px;
+  width: 420px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 3% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 35%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
