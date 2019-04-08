@@ -15,6 +15,12 @@ body{
 
 		}
 
+.navbar-brand{
+	font-size: 20px;
+    line-height: 34px;
+
+}
+
 */
 	.content{
 		margin-top: 25px; 
